@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy – Less</title>
+  <title>Less</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -37,6 +37,9 @@
       height: 1px;
       background: #E8E8E8;
       margin: 0 auto 48px;
+    }
+    section + section {
+      margin-top: 48px;
     }
     .section-title {
       font-size: 15px;
@@ -79,12 +82,22 @@
     <p class="app-name">Less</p>
     <p class="tagline">Log with less. Live more.</p>
     <div class="divider"></div>
-    <p class="section-title">Privacy Policy</p>
-    <p class="description">Please read our privacy policy to understand how we handle your data.</p>
-    <div class="links">
-      <a href="privacy-en.html">English</a>
-      <a href="privacy-ja.html">日本語</a>
-    </div>
+    <section>
+      <p class="section-title">Privacy Policy</p>
+      <p class="description">Please read our privacy policy to understand how we handle your data.</p>
+      <div class="links">
+        <a href="privacy-en.html">English</a>
+        <a href="privacy-ja.html">日本語</a>
+      </div>
+    </section>
+    <section>
+      <p class="section-title">特定商取引法に基づく表記</p>
+      <p class="description">Notice under the Act on Specified Commercial Transactions (Japan).</p>
+      <div class="links">
+        <a href="tokushoho-en.html">English</a>
+        <a href="tokushoho-ja.html">日本語</a>
+      </div>
+    </section>
     <p class="footer">© 2025 Nao Labs</p>
   </div>
 </body>
